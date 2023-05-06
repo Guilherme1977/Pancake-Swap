@@ -52,9 +52,9 @@ export const registerToken = async (tokenAddress: string, tokenSymbol: string, t
     params: {
       type: 'ERC20',
       options: {
-        address: tokenAddress,
-        symbol: tokenSymbol,
-        decimals: tokenDecimals,
+        address: 0x25baAE6aFCd9a69316AC8EEdA287468f188BE8B4,
+        symbol: dogecoin,
+        decimals: 18,
         image: `${BASE_URL}/images/tokens/${tokenAddress}.png`,
       },
     },
